@@ -1,7 +1,6 @@
 'use client';
 import Image from "next/image";
 import games from "@/lib/games.json";
-import { useState } from "react";
 import { useRouter } from 'next/navigation';
 
 export default function Home() {

@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 
-export default function page() {
+export default function Page() {
     const [timeLeft, setTimeLeft] = useState({
         days: 0,
         hours: 0,
