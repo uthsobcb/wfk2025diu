@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Crush</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title-screen">
+        <h1>Candy Crush</h1>
+        <button id="start-game-btn">Start Game</button>
+    </div>
+
+    <div class="game-container" style="display: none;">
+        <header>
+            <h1>Candy Crush</h1>
+            <div class="game-info">
+                <div class="score-container">
+                    <h2>Score: <span id="score">0</span></h2>
+                </div>
+                <div class="level-container">
+                    <h2>Level: <span id="level">1</span></h2>
+                </div>
+                <div class="moves-container">
+                    <h2>Moves: <span id="moves-left">30</span></h2>
+                </div>
+            </div>
+            <button id="mute-btn">Mute</button>
+        </header>
+        <div class="game-board-container">
+            <div class="game-board"></div>
+        </div>
+        <div class="controls">
+            <div class="difficulty-container">
+                <label for="difficulty">Difficulty:</label>
+                <select id="difficulty">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <button id="restart-button">Restart Game</button>
+        </div>
+    </div>
+    <div class="leaderboard-container" style="display: none;">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboard-list"></ul>
+    </div>
+    <script src="script.js"></script>
+    <audio id="background-music" src="background.mp3" loop></audio>
+    <audio id="blast-sound" src="blast.wav"></audio>
+</body>
+</html>

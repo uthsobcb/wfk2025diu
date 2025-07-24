@@ -1,5 +1,12 @@
 [
   {
+    "id": "RajnoitikRumble",
+    "title": "Rajnoitik Rumble",
+    "creator": "Binty",
+    "thumbnail": "/games/RajnoitikRumble/image.png",
+    "video": "/games/RajnoitikRumble/Rajnoitik.mov"
+  },
+  {
     "id": "palakrun",
     "title": "Palak Run",
     "creator": "Uthsob",
@@ -10,5 +17,17 @@
     "title": "2048",
     "creator": "Uthsob",
     "thumbnail": "/games/2048/image.png"
+  },
+  {
+    "id": "candyblast",
+    "title": "Candy Blast",
+    "creator": "Mostafiq Yellahy Nahid",
+    "thumbnail": "/games/candyblast/image.png"
+  },
+  {
+    "id": "BubbleShooter",
+    "title": "Bubble Shooter",
+    "creator": "Yeamin Monmdol Emon",
+    "thumbnail": "/games/BubbleShooter/image.png"
   }
 ]

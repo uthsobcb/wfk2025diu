@@ -1,0 +1,74 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars during slide animation */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+#player-name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+canvas {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.game-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(-100%); /* Start off-screen for slide-in */
+    z-index: 100;
+}
+
+.game-screen.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* Slide in */
+}
+
+.game-screen.fade-out {
+    opacity: 0;
+    transform: translateY(100%); /* Slide out */
+}
+
+.game-screen button {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

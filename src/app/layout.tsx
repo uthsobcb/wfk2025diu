@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import NavigationBar from "./component/Navigation";
+import Link from "next/link";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,25 +28,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
-        <nav className="w-full bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-600 text-white py-4 shadow-xl sticky top-0 z-50">
-          <div className="text-center text-xl font-extrabold tracking-wide max-w-6xl mx-auto px-5 flex items-center justify-center space-x-2">
-            <span>🌏</span>
-            <span>2025 WFK ICT Volunteer Program</span>
-            <span>🎓</span>
-            <span>Daffodil International University (DIU)</span>
-            <span>🚀</span>
-          </div>
-        </nav>
+        <NavigationBar />
 
         <main className="flex-1 flex flex-col">
           {children}
         </main>
 
-        <footer className="w-full bg-slate-600 text-white py-4 mt-auto">
-          <div className="text-center max-w-6xl mx-auto px-5">
-            Developed by: Uthsob
+        <footer className="w-full bg-gradient-to-r from-slate-800 via-slate-700 to-slate-800 text-white py-4 mt-auto">
+          <div className="max-w-6xl mx-auto px-5 text-center text-sm sm:text-base font-medium">
+            Developed by: <span className="text-yellow-300 font-semibold"> <Link href="https://uthsob.me">Uthsob</Link></span>
           </div>
         </footer>
+
       </body>
     </html>
   );

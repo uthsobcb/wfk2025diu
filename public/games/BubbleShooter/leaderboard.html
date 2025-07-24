@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaderboard - Bubble Shooter</title>
+    <link rel="stylesheet" type="text/css" href="leaderboard.style.css">
+</head>
+<body>
+    <div class="leaderboard-container">
+        <h1>Leaderboard</h1>
+        <ol id="leaderboard-list"></ol>
+        <a href="index.html">Back to Game</a>
+    </div>
+    <script>
+        const leaderboardList = document.getElementById('leaderboard-list');
+        const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+
+        highScores.sort((a, b) => b.score - a.score);
+
+        // Display only the top 10 high scores
+        const topScores = highScores.slice(0, 10);
+
+        for (const scoreEntry of topScores) {
+            const li = document.createElement('li');
+            li.textContent = `Score: ${scoreEntry.score} (Level: ${scoreEntry.level})`;
+            leaderboardList.appendChild(li);
+        }
+    </script>
+</body>
+</html>

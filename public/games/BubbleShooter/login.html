@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Bubble Shooter</title>
+    <link rel="stylesheet" type="text/css" href="login.style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Welcome to Bubble Shooter</h1>
+        <input type="text" id="name-input" placeholder="Enter your name">
+        <button id="start-button">Start Game</button>
+    </div>
+    <script>
+        document.getElementById('start-button').addEventListener('click', () => {
+            const name = document.getElementById('name-input').value;
+            if (name) {
+                localStorage.setItem('playerName', name);
+                window.location.href = 'index.html';
+            }
+        });
+    </script>
+</body>
+</html>
