@@ -1,0 +1,14 @@
+[
+  {
+    "id": "palakrun",
+    "title": "Palak Run",
+    "creator": "Uthsob",
+    "thumbnail": "/games/palakrun/palak.png"
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "creator": "Uthsob",
+    "thumbnail": "/games/2048/image.png"
+  }
+]

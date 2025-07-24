@@ -25,9 +25,27 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
-        {children}
+        <nav className="w-full bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-600 text-white py-4 shadow-xl sticky top-0 z-50">
+          <div className="text-center text-xl font-extrabold tracking-wide max-w-6xl mx-auto px-5 flex items-center justify-center space-x-2">
+            <span>🌏</span>
+            <span>2025 WFK ICT Volunteer Program</span>
+            <span>🎓</span>
+            <span>Daffodil International University (DIU)</span>
+            <span>🚀</span>
+          </div>
+        </nav>
+
+        <main className="flex-1 flex flex-col">
+          {children}
+        </main>
+
+        <footer className="w-full bg-slate-600 text-white py-4 mt-auto">
+          <div className="text-center max-w-6xl mx-auto px-5">
+            Developed by: Uthsob
+          </div>
+        </footer>
       </body>
     </html>
   );
