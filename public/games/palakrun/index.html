@@ -1,32 +1,27 @@
-<!DOCTYPE <body>
-<div id="game-container">
-    <div id="score">Score: 0</div>
-    <div id="player"></div>
-</div>
-
-<div id="game-over">
-    ইন্টারনেট আপনা আপনি বন্ধ হয়ে গেছে।<br>
-    <button id="restart-button">Restart</button>
-</div>
-<script src="script.js"></script>
-</body> lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gemini Platformer</title>
+    <title>Palak Run - Enhanced Edition</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div id="game-container">
         <div id="score">Score: 0</div>
+        <div id="high-score">Best: 0</div>
         <div id="player"></div>
+        <div id="instructions">Press SPACEBAR to jump • Collect stars for bonus points!</div>
     </div>
+
     <div id="game-over">
-        ইন্টারনেট আপনা আপনি বন্ধ হয়ে গেছে।<br>
-        <button id="restart-button">Restart</button>
+        ইন্টারনেট আপনা আপনি বন্ধ হয়ে গেছে আমি বন্ধ করিনি<br>
+        <div style="font-size: 0.5em; margin: 10px 0;">Final Score: <span id="final-score">0</span></div>
+        <button id="restart-button">Play Again</button>
     </div>
+
     <script src="script.js"></script>
 </body>
 
