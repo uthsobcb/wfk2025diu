@@ -27,6 +27,12 @@ export default function NavigationBar() {
                         Game Jam
                     </Link>
                     <Link
+                        href="/portfolio"
+                        className="hover:text-yellow-300 transition-colors duration-200 underline-offset-4 hover:underline"
+                    >
+                        Portfolio
+                    </Link>
+                    <Link
                         href="/hackathon"
                         className="hover:text-yellow-300 transition-colors duration-200 underline-offset-4 hover:underline"
                     >
