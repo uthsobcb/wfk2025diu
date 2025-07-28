@@ -40,8 +40,15 @@
   {
     "id": "MMOFighter",
     "title": "MMO Fighter",
-    "creator": "MH Tasnia",
-    "video": "/games/MMOFighter/mmo.mov",
+    "creator": "Meherose Hossain Tasnia",
+    "video": "https://www.youtube.com/watch?v=EHMZdChD20c",
     "thumbnail": "/games/MMOFighter/image.png"
+  },
+  {
+    "id": "Fitness-coach",
+    "title": "Fitness Coach",
+    "creator": "Md Somrat Sheikh",
+    "thumbnail": "/games/Fitness-coach/image.png",
+    "live": "https://fantastic-pixie-7f8702.netlify.app/"
   }
 ]
