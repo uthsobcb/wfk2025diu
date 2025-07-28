@@ -2,7 +2,7 @@
   {
     "id": "RajnoitikRumble",
     "title": "Rajnoitik Rumble",
-    "creator": "Binty",
+    "creator": "Tamim",
     "thumbnail": "/games/RajnoitikRumble/image.png",
     "video": "https://youtu.be/_1xmJ7zVF-E"
   },
@@ -29,5 +29,19 @@
     "title": "Bubble Shooter",
     "creator": "Yeamin Monmdol Emon",
     "thumbnail": "/games/BubbleShooter/image.png"
+  },
+  {
+    "id": "Hasina",
+    "title": "Hasina Game",
+    "creator": "Zerin Mashruba",
+    "video": "/games/Hasina/hasina.mov",
+    "thumbnail": "/games/Hasina/image.png"
+  },
+  {
+    "id": "MMOFighter",
+    "title": "MMO Fighter",
+    "creator": "MH Tasnia",
+    "video": "/games/MMOFighter/mmo.mov",
+    "thumbnail": "/games/MMOFighter/image.png"
   }
 ]
