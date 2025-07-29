@@ -36,7 +36,7 @@ export default function RootLayout({
 
         <footer className="w-full bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 text-white py-6 mt-auto border-t border-blue-500/20">
           <div className="max-w-6xl mx-auto px-5 text-center text-sm sm:text-base font-medium">
-            In collaboration with: <span className="text-blue-400 font-semibold hover:text-blue-300 transition-colors duration-200">DIU Data Science Club</span> | Developed by: <span className="text-blue-400 font-semibold hover:text-blue-300 transition-colors duration-200"> <Link href="https://uthsob.me">Uthsob</Link></span>
+            In collaboration with: <span className="text-blue-400 font-semibold hover:text-blue-300 transition-colors duration-200">DIU Data Science Lab</span> | Developed by: <span className="text-blue-400 font-semibold hover:text-blue-300 transition-colors duration-200"> <Link href="https://uthsob.me">Uthsob</Link></span>
           </div>
         </footer>
 
