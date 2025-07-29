@@ -1,5 +1,11 @@
 [
   {
+    "id": "snakegame",
+    "title":"Snake Game",
+    "creator": "Jihyuk Lee",
+    "thumbnail":"/games/snakegame/image.png"
+  },
+  {
     "id": "RajnoitikRumble",
     "title": "Rajnoitik Rumble",
     "creator": "Tamim",
