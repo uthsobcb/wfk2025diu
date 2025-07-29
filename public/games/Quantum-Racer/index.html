@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Racer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        <div id="ui-container">
+            <div id="start-screen" class="overlay">
+                <h1>Quantum Racer</h1>
+                <div class="controls-info">
+                    <p>CONTROLS</p>
+                    <div class="keys">
+                        <div class="key">↑</div>
+                        <div class="key-group">
+                            <div class="key">←</div>
+                            <div class="key">↓</div>
+                            <div class="key">→</div>
+                        </div>
+                    </div>
+                </div>
+                <button id="start-button" class="btn">Start Race</button>
+            </div>
+            <div id="track-selection-screen" class="overlay" style="display: none;">
+                <h1>Select a Track</h1>
+                <div class="track-options">
+                    <div class="track-option" data-track-id="0">
+                        <img class="track-preview" id="track-preview-0" src="sounds/track1.jpg">
+                        <p>Easy Rider</p>
+                    </div>
+                    <div class="track-option" data-track-id="1">
+                        <img class="track-preview" id="track-preview-1" src="sounds/track2.jpg">
+                        <p>Twisty Pro</p>
+                    </div>
+                </div>
+            </div>
+            <div id="hud">
+                <div class="hud-item">
+                    <p>Speed</p>
+                    <span id="speed">0</span>
+                </div>
+                <div class="hud-item">
+                    <p>Time</p>
+                    <span id="time">0.00</span>
+                </div>
+                <div class="hud-item">
+                    <p>Lap</p>
+                    <span id="lap">0/3</span>
+                </div>
+                 <div class="hud-item">
+                    <p>Position</p>
+                    <span id="position">-</span>
+                </div>
+                <button id="pause-button" class="btn-icon">❚❚</button>
+            </div>
+            <div id="countdown" class="overlay" style="display: none;">
+                <h1 id="countdown-text">3</h1>
+            </div>
+            <div id="pause-screen" class="overlay" style="display: none;">
+                <h1>Paused</h1>
+                <button id="resume-button" class="btn">Resume</button>
+            </div>
+            <div id="game-over-screen" class="overlay" style="display: none;">
+                <h1>Race Finished!</h1>
+                <p>Your time: <span id="final-time">0</span></p>
+                <button id="restart-button" class="btn">Race Again</button>
+                <button id="new-game-button" class="btn btn-secondary">Main Menu</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

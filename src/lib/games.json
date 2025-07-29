@@ -1,9 +1,9 @@
 [
   {
     "id": "snakegame",
-    "title":"Snake Game",
+    "title": "Snake Game",
     "creator": "Jihyuk Lee",
-    "thumbnail":"/games/snakegame/image.png"
+    "thumbnail": "/games/snakegame/image.png"
   },
   {
     "id": "RajnoitikRumble",
@@ -48,13 +48,13 @@
     "title": "MMO Fighter",
     "creator": "Meherose Hossain Tasnia",
     "video": "https://www.youtube.com/watch?v=EHMZdChD20c",
-    "thumbnail": "/games/MMOFighter/image.png"
+    "thumbnail": "/games/MMOFIghter/image.png"
   },
   {
     "id": "Fitness-coach",
     "title": "Fitness Coach",
     "creator": "Md Somrat Sheikh",
-    "thumbnail": "/games/Fitness-coach/image.png",
+    "thumbnail": "/games/Fitness-coach/logo512.png",
     "live": "https://fantastic-pixie-7f8702.netlify.app/"
   },
   {
@@ -63,5 +63,24 @@
     "creator": "Mashruba Sultana Zerin",
     "thumbnail": "/games/SkinUnderTone/image.png",
     "video": "https://youtu.be/v2faNxPclqI?si=Mwa_2Vra6YEwBD6b"
+  },
+  {
+    "id": "Quantum-Racer",
+    "title": "Quantum Racer",
+    "creator": "Sumaiya Alamgir",
+    "thumbnail": "/games/Quantum-Racer/image.png"
+  },
+  {
+    "id": "BlueBoxRedBox",
+    "title": "Blue box Red box",
+    "creator": "Alif",
+    "thumbnail": "/games/BlueBoxRedBox/image.png",
+    "live": "https://timely-cuchufli-f4436d.netlify.app/"
+  },
+  {
+    "id": "Rainbow-Puzzle",
+    "title": "Rainbow Puzzle",
+    "creator": "Zakaria",
+    "thumbnail": "/games/Rainbow-Puzzle/image.png"
   }
 ]
