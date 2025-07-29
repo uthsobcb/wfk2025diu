@@ -37,12 +37,7 @@ export default function NavigationBar() {
                     >
                         Portfolio
                     </Link>
-                    <Link
-                        href="/hackathon"
-                        className="hover:text-blue-300 transition-colors duration-200 underline-offset-4 hover:underline px-2 py-1 rounded hover:bg-blue-500/20"
-                    >
-                        Hackathon
-                    </Link>
+
                 </div>
             </div>
         </nav>

@@ -328,14 +328,6 @@ export default function Home() {
               <p className="text-gray-300">Showcasing awesome builds projects in unique way by students.</p>
             </Link>
 
-            <Link
-              href="/hackathon"
-              className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-teal-400/50 transition-all duration-300 hover:transform hover:scale-105"
-            >
-              <div className="text-6xl mb-4">💡</div>
-              <h3 className="text-2xl font-semibold mb-4 text-teal-300 group-hover:text-teal-200">Innovation Hackathon</h3>
-              <p className="text-gray-300">Collaborative projects solving real-world problems with technology</p>
-            </Link>
           </div>
         </div>
       </section>
