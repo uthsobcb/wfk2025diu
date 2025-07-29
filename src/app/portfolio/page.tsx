@@ -29,6 +29,10 @@ const people: Person[] = [
     {
         name: "Meherose Hossain Tasnia",
         githubUrl: "https://mhtasnia.github.io/Portfolio/"
+    },
+    {
+        name: "Sidddartho Sen",
+        githubUrl: "https://siddharthosen.netlify.app/"
     }
 ];
 

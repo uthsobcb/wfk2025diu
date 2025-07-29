@@ -33,8 +33,8 @@
   {
     "id": "Hasina",
     "title": "Hasina Game",
-    "creator": "Zerin Mashruba",
-    "video": "/games/Hasina/hasina.mov",
+    "creator": "Jafrin Alam Prima",
+    "video": "https://youtu.be/5lFyDOpiaC8",
     "thumbnail": "/games/Hasina/image.png"
   },
   {
@@ -50,5 +50,12 @@
     "creator": "Md Somrat Sheikh",
     "thumbnail": "/games/Fitness-coach/image.png",
     "live": "https://fantastic-pixie-7f8702.netlify.app/"
+  },
+  {
+    "id": "SkinUnderTone",
+    "title": "Skin Under Tone Genie",
+    "creator": "Mashruba Sultana Zerin",
+    "thumbnail": "/games/SkinUnderTone/image.png",
+    "video": "https://youtu.be/v2faNxPclqI?si=Mwa_2Vra6YEwBD6b"
   }
 ]
