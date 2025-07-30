@@ -82,5 +82,11 @@
     "title": "Rainbow Puzzle",
     "creator": "Zakaria",
     "thumbnail": "/games/Rainbow-Puzzle/image.png"
+  },
+  {
+    "id": "MemoryMatching",
+    "title": "Memory Matching Game",
+    "creator": "Neha",
+    "thumbnail": "/games/MemoryMatching/image.png"
   }
 ]
